@@ -1,4 +1,4 @@
-# Peer-graded Assignment: Course Project 1 #
+## Peer-graded Assignment: Course Project 1 ##
 
 # 1. read and organize data
 data <- read.table("household_power_consumption.txt", skip = 1, sep =";")
