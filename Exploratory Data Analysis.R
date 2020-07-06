@@ -6,11 +6,9 @@ names(data) <- c("Date","Time","Global_active_power","Global_reactive_power",
                  "Voltage","Global_intensity","Sub_metering_1","Sub_metering_2","Sub_metering_3")
 head (data)
 
-
 # 2. Subset data
 data_2 <- subset(data, data$Date == "1/2/2007" | data$Date == "2/2/2007")
 head(data_2)
-
 
 # 3. First plot
 hist(as.numeric(data$Global_active_power), col = "purple", main = "Global Active Power", 
